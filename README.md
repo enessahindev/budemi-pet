@@ -1,3 +1,3 @@
-# pet-grooming-starter
+# pet-washer
 
 https://petwash.netlify.app/
