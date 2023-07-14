@@ -1,0 +1,27 @@
+import React from "react";
+
+// import image
+import DogImg from "../assets/img/dogs/dog-contact.png";
+
+const Contact = () => {
+  return (
+    <section className="bg-yellow-secondary pt-6">
+      <div className="containter mx-auto">
+        <div className="flex flex-col lg:flex-row justify-around">
+          {/* Image */}
+          <div className="order-1 lg:-order-1 lg:mt-16">
+            <img className="-mb-[12px]" src={DogImg} alt="" />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <div className="text-red font-semibold mb-3">Contact</div>
+            <div className="text-4xl text-blue font-extrabold">+ 90 000 000 00 00</div>
+            <div className="mb-7 text-blue ">Opening Hours: Mon - Sun: 10am - 6pm</div>
+            <button className="btn">Get an appointment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
